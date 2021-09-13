@@ -1,0 +1,52 @@
+
+.services-area {
+    background: $bg-gray;
+    .single-services {
+        background: $white;
+        border: 1px solid $border-gray;
+        padding: 30px;
+        width: 390px;
+        margin-right: 14px;
+        float: left;
+        margin-bottom: 20px;
+        transition: .3s;
+        &:hover{
+            border-color: $primary;
+            i{
+                background-color: $primary;
+                color: $white;
+            }
+        }
+        &:last-child {
+            margin-right: 0;
+          }
+        &:nth-child(3) {
+            margin-right: 0;
+          }
+          i {
+            font-size: 20px;
+            border: 1px solid $border-gray;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%;
+            transition: .3s;
+          }
+          h4 {
+            text-transform: capitalize;
+            font-size: 24px;
+            margin: 20px 0;
+          }
+          p {
+            margin-bottom: 20px;
+          }
+          a {
+            color: $black;
+          }
+         
+      }
+
+  }
+  
